@@ -1,0 +1,119 @@
+/* body{
+  padding: 0;
+  margin: 0;
+}
+.nav-ul li{
+  display:inline-block;
+  padding: 20px;
+  
+ 
+}
+.nav-ul ul{
+  background-color: skyblue;
+ 
+}
+ a{
+  color:darkslategrey;
+  padding: 5px;
+  text-decoration: none;
+}
+a:hover{
+  background-color: white;
+}
+
+.bg-color{
+ 
+  background-color: skyblue;
+}
+
+.App{
+  margin-top: -16px;
+ 
+}
+
+
+.Footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+
+.inputBox{
+  text-align: center;
+  display: block;
+  margin: 20px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+
+.sign-center{
+  margin-left: 38%;
+}
+
+.button
+{
+  margin: 25px;
+  padding: 10px;
+  width: 310px;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+  cursor: pointer;
+  color:#282c34;
+
+}
+
+.error{
+  color: red;
+  
+}
+
+.product-list{
+  text-decoration: none;
+}
+.product-list ul li{
+ display: inline-block;
+ border: 1px solid skyblue;
+ width: 150px;
+ padding: 5px;
+}
+
+.search{
+  text-align: center;
+  width: 400px;
+  margin:20px;
+  padding: 20px;
+  border: 1px solid skyblue;
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
